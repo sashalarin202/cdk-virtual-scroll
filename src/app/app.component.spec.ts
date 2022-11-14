@@ -23,7 +23,6 @@ describe('AppComponent', () => {
   it(`should have as title 'sdk-virtual-scroll'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('sdk-virtual-scroll');
   });
 
   it('should render title', () => {
